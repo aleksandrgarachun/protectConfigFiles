@@ -127,7 +127,7 @@ debug: true
 logfile: "/var/log/app.log"
 ```
 
-![schema](./png/example.py missing port.png)
+![schema](./png/example.py_missing_port.png)
 
 2. Неправильний тип значення:
 
@@ -142,7 +142,7 @@ debug: true
 logfile: "/var/log/app.log"
 ```
 
-![schema](./png/example.py error port.png)
+![schema](./png/example.py_error_port.png)
 
 3. Неправильний тип для `debug`:
 
@@ -157,10 +157,10 @@ debug: "true"
 logfile: "/var/log/app.log"
 ```
 
-![schema](./png/example.py error debug.png)
+![schema](./png/example.py_error_debug.png)
 
 ### Тести
-![schema](./png/git test.jpg)
+![schema](./png/git_test.jpg)
 
 ![schema](./png/test_config_parser.py.png)
 

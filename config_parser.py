@@ -22,5 +22,5 @@ class ConfigParser:
                 
             return config
         except (yaml.YAMLError, ValueError, TypeError) as e:
-            print(f"Помилка валідації: {e}")
+ 
             return None
